@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color:rgb(255 249 228)
+           
+        }
+
+        header {
+            font-size: 30px;
+            /background-color:rgb(55, 123, 100);
+            color:rgb(68, 67, 37);
+            text-align: center;
+            position:sticky;
+            top:0px;
+        }
+
+main {
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
+.a{
+    display:inline-block;
+    width:150px;
+    height: 500px;
+    position:relative;
+    right:590px;
+    bottom: 20px;
+    background-color: rgb(185, 172, 122);
+    border-radius: 5px;
+    text-align:inherit;
+}
+.b{
+    font-size: 24px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h1{
+    font-size: 80px;
+    background-color: rgb(185, 172, 122);
+    color: rgb(87, 76, 33)
+}
+.one{
+        width:300px;
+        position:relative;
+        bottom:520px;
+        right:-200px;
+        height: 500px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        background-color:  rgb(185, 172, 122);
+        color: rgb(73, 64, 27);
+        border-radius: 5px;
+
+}
+.two{
+        width:300px;
+        position:relative;
+        bottom:1020px;
+        right:-570px;
+        height: 500px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        background-color:  rgb(185, 172, 122);
+        color: rgb(73, 64, 27);
+        border-radius: 5px;
+}
+.three{
+        width:300px;
+        position:relative;
+        bottom:1520px;
+        right:-950px;
+        height: 500px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        background-color:  rgb(185, 172, 122);
+        color: rgb(73, 64, 27);
+}
+.img1{
+    width:280px;
+    height:440px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img2{
+    width:280px;
+    height:440px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img3{
+    width:280px;
+    height:440px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.filter-bar {
+        width: 150px;
+        height: 410px;
+        background-color: rgb(185, 172, 122);;
+        color: rgb(73, 64, 27);
+        position: fixed;
+        right: -1320px;
+        top:-2000px;
+        border-right: 1px solid #ddd;
+    }
+    .filter-item {
+        padding: 10px;
+        cursor: pointer;
+        transition: background-color 20s ease;
+    }
+    .filter-item:hover {
+        background-color:rgb(185, 172, 122);
+    }
+    .dropdown-content{
+        color: rgb(73, 64, 27);
+    }
+    .dropdown-item{
+        color: rgb(73, 64, 27);
+    }
+
+
+
+</style>
+</head>
+<body>
+<header>
+<h1 class="h1"><u>All Products</u></h1>
+</header>
+
+
+
+<main class="main">
+    <div class="a">
+<p class="b">This is your category description. It’s a great place to tell customers what this category is about, connect with your audience and draw attention to your products.</p>
+    </div>
+    <div class="one">
+            <img src="images/kitchen2.jpg" class="img1">
+            KITCHEN
+    </div>
+    <div class="two">
+        <img src="images/others.avif" class="img2">
+        SERUM
+    </div>
+    <div class="three">
+        <img src="images/bathroom3.avif" class="img3">
+        BATH
+    </div>
+    <div class="filter-bar">
+        <h4><div class="filter-item dropdown">
+            KITCHEN
+            <div class="dropdown-content">
+                <a href="#" class="dropdown-item">Utensils</a>
+                <a href="#" class="dropdown-item">Appliances</a>
+                <a href="#" class="dropdown-item">Cookware</a>
+            </div>
+        </div></h4>
+        <h4><div class="filter-item dropdown">
+            BATH
+            <div class="dropdown-content">
+                <a href="#" class="dropdown-item">Towels</a>
+                <a href="#" class="dropdown-item">Accessories</a>
+                <a href="#" class="dropdown-item">Shower Curtains</a>
+            </div>
+        </div></h4>
+        <h4><div class="filter-item dropdown">
+            SERUM
+            <div class="dropdown-content">
+                <a href="#" class="dropdown-item">Hair Serum</a>
+                <a href="#" class="dropdown-item">Skin Serum</a>
+            </div>
+        </div></h4>
+    </div>
+
+</main>
+</body>
+</html>
