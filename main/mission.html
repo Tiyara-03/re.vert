@@ -1,90 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Mission - Sustainable Products</title>
+    <title>Page Title</title>
     <style>
-        /* Reset some default styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        /* Define a custom font family */
+        @font-face {
+            font-family: 'MyCustomFont';
+            src: url('path/to/your/font.woff2') format('woff2'),
+                 url('path/to/your/font.woff') format('woff');
+            /* Add more font formats if needed (e.g., .ttf, .otf) */
         }
 
-        body {
-            font-family: Arial, sans-serif;
-            /* Set background image for the body */
-            background-image: "C:\Users\Lenovo\Downloads\bg.jpg";
-            background-size: cover; /* Adjust background size */
-            background-position: center; /* Center the background image */
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 28px;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 16px;
-            line-height: 1.6;
-            color: #666;
-        }
-
-        .mission-section {
-            background-color: rgba(255, 255, 255, 0.9); /* Background color with opacity */
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .vision-section {
-            background-color: rgba(245, 245, 245, 0.9); /* Background color with opacity */
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-
-        .cta-button {
+        /* Apply the custom font to the heading */
+       h1 {
+            font-family:ui-serif;
+            /* You can adjust other font properties here (size, weight, etc.) */
+            font-size: 200px;
+            margin: -20px 0;
+            position: relative;
             display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s ease;
+            
         }
 
-        .cta-button:hover {
-            background-color: #0056b3;
+       
+      h2 {
+            font-family: ui-serif;
+
+            /* You can adjust other font properties here (size, weight, etc.) */
+            font-size: 200px;
+            margin:-70px 0;
         }
+
+ /* Apply the custom font to the heading */
+        h3 {
+            font-family:serif;
+
+            /* You can adjust other font properties here (size, weight, etc.) */
+            font-size:35px;
+            margin:50 px;
+        }
+ /* Apply the custom font to the heading */
+        h4 {
+            font-family:serif;
+
+            /* You can adjust other font properties here (size, weight, etc.) */
+            font-size: 30px;
+            margin:50 px;
+        }
+ /* Apply the custom font to the heading */
+        h5 { font-family:calibri; 
+           font-size: 20px;
+            margin:50 px;
+            /* width: 10% ; /*Adjust width as needed */
+            padding:-10px;
+            text-align: center;
+        }
+
+
+
+
+
+        /* Style the div */
+        div {
+            background-color: rgb(198, 199, 125);
+            padding: 20px; /* Adjust padding as needed */
+            text-align: center; /* Center the content horizontally */
+        }
+   /* Style the div */
+        div {
+            background-color: rgb(198, 199, 125);
+            padding: 20px; /* Adjust padding as needed */
+            text-align: center; /* Center the content horizontally */
+        }
+   
+
+.can {
+    background-color: rgb(255, 251, 238);
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center the content horizontally */
+}
+
+
+
+     .center-image {
+    display: block;
+    margin: 0 auto;
+    animation: slideFromBottom 1s ease-out;
+    
+
+    
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 251, 238);
+    
+}
+
+.column {
+    /* width: 10% Adjust width as needed */
+    padding:-10px;
+    text-align: center;
+    background-color: rgb(255, 251, 238);
+    
+
+}
+.container1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: rgb(255, 251, 238);
+
+            
+        }
+
+        .left,
+        .right {
+            flex-basis: 45%; /* Adjust as needed */
+            margin-bottom: 20px; /* Adjust spacing between rows */
+            background-color: rgb(255, 251, 238);
+
+        }
+
+        .middle {
+            flex-basis: 100%;
+            text-align: center;
+            background-color: rgb(255, 251, 238);
+    
+
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Center the images horizontally */
+    }
+@keyframes slideFromBottom {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        
+
+        @keyframes slideFromLeft {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideFromRight {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            } 
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+     .left img:first-child {
+            animation: slideFromLeft 1s ease-out forwards;
+        }
+
+        .left img:last-child {
+            animation: slideFromLeft 1s ease-out forwards;
+            animation-delay: 0.5s;
+        }
+
+        .right img:first-child {
+            animation: slideFromRight 1s ease-out forwards;
+        }
+
+        .right img:last-child {
+            animation: slideFromRight 1s ease-out forwards;
+            animation-delay: 0.5s;
+        }
+
+        .middle img {
+            animation: slideFromBottom 1s ease-out forwards;
+            animation-delay: 1s;
+        }
+
+
+        
     </style>
 </head>
-<body bgcolor="yellow">
-    <div class="container">
-        <div class="mission-section">
-            <h1 align="center"><font size="100"; color="blue">Our Mission </font></h1>
-            <p>
-"At Sustainable Products, our mission is to catalyze a profound shift towards sustainability, driven by a steadfast commitment to environmental responsibility and ethical stewardship. We meticulously curate an expansive array of eco-friendly products, each meticulously selected to meet stringent environmental standards while maintaining uncompromising quality. Our goal is to empower consumers with knowledge and choices that resonate with their values, fostering a culture of conscious consumption. By prioritizing partnerships with suppliers and manufacturers who uphold ethical labor practices, we ensure that our products not only minimize environmental impact but also promote social equity. We champion innovation and education, nurturing a community dedicated to continuous learning and creativity in sustainable practices. Through advocacy and engagement, we strive to effect meaningful change at all levels, advocating for policies that advance sustainability and holding ourselves accountable through transparent measurement of our environmental footprint. Together with our community of customers, partners, and stakeholders, we endeavor to shape a future where sustainability is not just a choice, but a way of life—a legacy of stewardship for generations to come."            </p>
-            <a href="#vision" class="cta-button">Learn More</a>
-        </div>
+<body>
+    <div>
+        <h1>We Are</h1> <br>
+        <h2>Re.ture </h2> <br> <br>
+        <h3>Women-owned local business</h3>
+        <img src="C:\Users\Lenovo\OneDrive\Desktop\img.mission.jpg" align="center" width="900"class="center-image">
+        <h4 align="center">We take care of the small details and believe that each <br> daily action can make an impact.</h4>
+        <h5 align="center">I'm a paragraph. Click here to add your own text and edit me.<br>It’s easy. Just click “Edit Text”  or double click me to add your own content and make  <br> to the font. Feel free to drag and drop me anywhere you like on your page. <br> I’m a great place for you to tell a story and let your users know a little more <br> about you.​This is a great space to write a long text about your <br> company and your services. You can use this space to go into a little more detail about your company.<br>Talk about your team and what services you provide. Tell your visitors <br> the story of how you came up  with the idea for your business and what makes you different  from<br> your competitors. Make your company stand out and show your visitors who you are.</h5>
 
-        <div class="vision-section" id="vision">
-            <h1 align="center"> <font size="200"; color="green">Our Vision </font></h1>
-            <p>
-                Vision Statement for Sustainable Products:
-
-"Our vision at Sustainable Products is to pioneer a global movement towards a regenerative and thriving planet. We envision a future where sustainability is not merely an aspiration, but a fundamental principle embedded in every aspect of society. Our commitment extends beyond offering eco-friendly products; we strive to inspire a profound shift in consciousness—a paradigm where individuals, businesses, and communities embrace sustainability as a core value. We see a world where environmental stewardship, social equity, and economic prosperity are interconnected, fostering resilience and abundance for all. Through innovation, collaboration, and advocacy, we aim to catalyze systemic change, transforming the way we produce, consume, and interact with our planet. Together, we envision a future where every action, no matter how small, contributes to the regeneration of our environment and the well-being of future generations."
-            </p>
-            <a href="#top" class="cta-button">Back to Top</a>
+      
+    </div> 
+ <br> <br>
+<div class="can">
+   <div class="container 1">
+        <div class="left">
+            <img src="C:\Users\Lenovo\OneDrive\Desktop\photo1.jpg" alt="Photo 1"> <br> <br>
+            <img src="C:\Users\Lenovo\OneDrive\Desktop\photo3.jpg"alt="Photo 2">
         </div>
-    <img src="C:\Users\Lenovo\Downloads\bg.jpg" alt="img not available" width="300" height="300">
+        <div class="middle">
+            <img src="C:\Users\Lenovo\OneDrive\Desktop\photo2.jpg"alt="Photo 3">
+        </div>
+        <div class="right">
+            <img src="C:\Users\Lenovo\OneDrive\Desktop\photo4.jpg" alt="Photo 4"> <br> <br>
+            <img src="C:\Users\Lenovo\OneDrive\Desktop\photo5.jpg" alt="Photo 5">
+        </div>
+    </div>
+  <h3 align="center"> THE RE.TURE WAY </h3> 
+<div class="container">
+        <div class="column">
+            <h3>Zero waste</h3>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+        </div>
+        <div class="column">
+            <h3>Sustainable</h3>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+        </div>
+        <div class="column">
+            <h3>Reusable</h3>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>
