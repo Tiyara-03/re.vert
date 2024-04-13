@@ -67,7 +67,7 @@
 }
 
 .logo{
-    margin: 13px 15rem;
+    margin: 13px 17rem;
     padding: 0px 47px;
 }
 
@@ -80,12 +80,27 @@
 
 .cart{
     display: flex;
-    margin-left: 18px;
+    margin-left: -15px;
 }
 
 #car{
-    padding: 0px 30px;
+    /* padding: 0px 30px; */
     margin: 0px 20px;
+    cursor: pointer;
+}
+
+#log{
+    cursor: pointer;
+}
+
+.icon{
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+.icon i{
+    color: rgb(75, 75, 75) ;
+    font-size: 23px;
 }
 
 
@@ -172,7 +187,7 @@
 }
 #services .box{
         /* border: 9px solid rgb(49, 64, 74); */
-        padding: 0px 31px;
+        padding: 0px 25px;
         /* border: 5px solid rgb(9, 239, 9); */
         margin: -8px -7px;
         /* border-radius: 60px; */
