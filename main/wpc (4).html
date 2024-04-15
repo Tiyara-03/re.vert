@@ -1,0 +1,989 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    
+    <style>
+        .body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin:0;
+            padding: 0;
+            background-color:rgb(255 249 228);
+           
+            
+           
+        }
+
+        header {
+            font-size: 30px;
+            /* background-color:rgb(55, 123, 100); */
+            color:rgb(68, 67, 37);
+            text-align:center;
+            position:relative;
+            top:0px;
+        }
+
+main {
+    text-align: center;
+    padding: 0;
+    font-size: larger;
+}
+.a{
+    display:inline-block;
+    width:150px;
+    height: 423px;
+    position:relative;
+    right:570px;
+    bottom: 10px;
+    background-color: rgb(185, 172, 122);
+    text-align:inherit;
+}
+.b{
+    font-size: 23px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h1{
+    font-size: 80px;
+    background-color: #b9ac7a;
+    color: rgb(87, 76, 33);
+}
+.one{
+        width:250px;
+        position:relative;
+        bottom:457px;
+        left:240px;
+        height: 470px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        color: rgb(73, 64, 27);
+        border-radius: 5px;
+        background-color:  rgb(185, 172, 122);
+    }
+.two{
+        width:250px;
+        position:relative;
+        bottom:928px;
+        left:540px;
+        height: 470px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        background-color:  rgb(185, 172, 122);
+        color: rgb(73, 64, 27);
+        border-radius: 5px;
+}
+.three{
+        width:250px;
+        position:relative;
+        bottom:1398px;
+        left:840px;
+        height: 470px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        background-color:  rgb(185, 172, 122);
+        border-radius: 5px;
+        color: rgb(73, 64, 27);
+}
+.img1{
+    width:210px;
+    height:418px;
+    border-radius: 5px;
+    cursor: grab;
+}
+.img2{
+    width:210px;
+    height:418px;
+    border-radius: 5px;
+    cursor:grab;
+}
+.img3{
+    width:210px;
+    height:418px;
+    border-radius: 5px;
+    cursor: grab;
+}
+.filter-bar {
+        width: 150px;
+        height: 410px;
+        background-color: rgb(185, 172, 122);;
+        color: rgb(73, 64, 27);
+        position: relative;
+        left:1160px;
+        top:-1860px;
+        border-right: 1px solid #ddd;
+    }
+    .filter-item {
+        padding: 10px;
+        cursor: grab;
+        transition: background-color 20s ease;
+    }
+    .filter-item:hover {
+        background-color:rgb(185, 172, 122);
+    }
+    .dropdown-content{
+        color: rgb(73, 64, 27);
+    }
+    .dropdown-item{
+        color: rgb(73, 64, 27);
+    }
+    .kitchen{
+        background-color: rgb(255 249 228);
+        position: absolute;
+        bottom: -1200px;
+        height:1100px;
+        width:1345px;
+        left:-7px;
+    }
+    .fontK{
+        color: rgb(73, 64, 27);
+        font-size:80px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: relative;
+        left:-500px;
+        bottom:70px;
+    }
+    
+    .img4{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:50px;
+        left:-350px;
+        border-radius: 15px;
+    }
+    .spoon{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left: -280px;
+        bottom: 60px;
+        }
+    .img5{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:50px;
+        left:-250px;
+        border-radius: 15px;
+    }
+    .bottle{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left: -250px;
+        bottom: 60px;
+        }
+    .img6{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:900px;
+        left:150px;
+        border-radius: 15px;
+    }
+    .bowl{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left: 150px;
+        bottom: 909px;
+    }
+.img7{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:900px;
+        left:150px;
+        border-radius: 15px;
+    }
+    .spong{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left: 150px;
+        bottom: 909px;
+    }
+    .img8{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:1745px;
+        left:510px;
+        border-radius: 15px;
+    }
+    .tif{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left: 510px;
+        bottom: 1755px;
+    }
+    .img9{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:1745px;
+        left:510px;
+        border-radius: 15px;
+    }
+    .bag{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left: 510px;
+        bottom: 1755px;
+    }
+    .kit-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.sort1{
+    
+    position: relative;
+    bottom:450px; 
+    left:630px;
+    color:rgb(73, 64, 27);
+    cursor:grab;
+}
+
+.kit-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 160px;
+  bottom:200px;
+  left:630px;
+  cursor: grab;
+  box-shadow: 0px 8px 16px 0px rgba(250, 241, 241, 0);
+  padding: 12px 16px;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+
+
+.kit-dropdown:hover .kit-dropdown-content {
+  display: block;}
+.slidecontainer {
+  width: 100%;
+  
+}
+.slider1 {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 10px;
+  position: relative;
+  bottom: 1280px;
+  left:-550px;
+  border-radius: 5px;
+  background: rgb(148, 132, 68);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider1:hover {
+  opacity: 1;
+}
+
+.slider1::-webkit-slider1-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 24px;
+  border: 0;
+  cursor:grab;
+}
+
+.slider1::-moz-range-thumb {
+  width: 23px;
+  height: 24px;
+  border: 0;
+  cursor: grab;
+}
+.price{
+    position: relative;
+    bottom:1350px;
+    font-size: 21px;
+    color:rgb(87, 76, 33);;
+    left:-550px;
+}
+.filter{
+    position: relative;
+    bottom:1500px;
+    font-size: 27px;
+    color:rgb(87, 76, 33);;
+    left:-540px;
+}
+.hr{
+    position: relative;
+    bottom:1525px;
+    font-size: 21px;
+    width:18%;
+    color:rgb(185, 172, 122);
+    left:-540px;
+}
+.space{
+    word-spacing:4cm;
+    position: relative;
+    bottom:1430px;
+    font-size: 21px;
+    width:18%;
+    color:rgb(116, 103, 51);
+    left:5px;
+}
+.size{
+    font-size:28px; 
+    color:rgb(87, 76, 33);
+}
+.radio1{
+    position: relative;
+    bottom:1430px;
+    font-size: 24px;
+    width:18%;
+    color:rgb(116, 103, 51);
+    left:-19px;
+    display:flex;
+    flex-direction:column;
+}
+.bath{
+        background-color: rgb(255 249 228);
+        position: absolute;
+        bottom:-2550px;
+        height:1300px;
+        width:1345px;
+        left:0px;
+    }
+    .fontA{
+        color:rgb(73, 64, 27);
+        font-size:80px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: relative;
+        left:-570px;
+        bottom:50px;
+    }
+    .img10{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:120px;
+        left:-356px;
+        border-radius: 15px;
+    }
+    .hairbrush{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left:-270px;
+        bottom: 135px;
+        }
+        .img11{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:550px;
+        left:140px;
+        border-radius: 15px;
+    }
+    .honeysoap{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left: 130px;
+        bottom: 560px;
+        }
+        .img12{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:970px;
+        left:502px;
+        border-radius: 15px;
+    }
+    .footbrush{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left: 490px;
+        bottom: 980px;
+    }
+    .img13{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:960px;
+        left:-258px;
+        border-radius: 15px;
+    }
+    .lemonsoap{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left:-260px;
+        bottom: 970px;
+        }
+        .img14{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:1379px;
+        left:140px;
+        border-radius: 15px;
+    }
+    .tooth{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left:130px;
+        bottom: 1390px;
+        }
+        .img15{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:1800px;
+        left:500px;
+        border-radius: 15px;
+    }
+    .facepad{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left: 490px;
+        bottom: 1810px;
+    }
+    .bat-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.sort2{
+    
+    position: relative;
+    bottom:520px; 
+    left:620px;
+    color:rgb(73, 64, 27);
+    cursor:grab;
+}
+
+.bat-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 160px;
+  
+  bottom:0px;
+  left:50px;
+  cursor: grab;
+  box-shadow: 0px 8px 16px 0px rgba(250, 241, 241, 0);
+  padding: 12px 16px;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.bat-dropdown: hover .bat-dropdown-content {
+  display: block;}
+
+  .slider2 {
+    -webkit-appearance: none;
+  width: 190px;
+  height: 10px;
+  position: relative;
+  bottom: 700px;
+  left:-550px;
+  border-radius: 5px;
+  background: rgb(148, 132, 68);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider2:hover {
+  opacity: 1;
+}
+
+.slider2::-webkit-slider2-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 24px;
+  border: 0;
+  cursor:grab;
+}
+
+.slider2::-moz-range-thumb {
+  width: 23px;
+  height: 24px;
+  border: 0;
+  cursor: grab;
+}
+.price1{
+    position: relative;
+    bottom:770px;
+    font-size: 21px;
+    color:rgb(87, 76, 33);
+    left:-550px;
+}
+.filter1{
+    position: relative;
+    bottom:950px;
+    font-size: 27px;
+    color:rgb(87, 76, 33);;
+    left:-540px;
+}
+.hr1{
+    position: relative;
+    bottom:970px;
+    font-size: 17px;
+    width:18%;
+    color:rgb(185, 172, 122);
+    left:-540px;
+}
+.space1{
+    word-spacing:4cm;
+    position: relative;
+    bottom:850px;
+    font-size: 21px;
+    width:18%;
+    color:rgb(116, 103, 51);
+    left:7px;
+}
+.batsize{
+    font-size:28px; 
+    color:rgb(87, 76, 33);
+}
+.radio2{
+    position: relative;
+    bottom:830px;
+    font-size: 24px;
+    width:18%;
+    color:rgb(116, 103, 51);
+    left:-14px;
+    display:flex;
+    flex-direction:column;
+}
+.serum{
+        background-color: rgb(255 249 228);
+        position: absolute;
+        bottom: -3400px;
+        height:1100px;
+        width:1390px;
+        left:-45px;
+    }
+    .fontS{
+        color: rgb(73, 64, 27);
+        font-size:80px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: relative;
+        left:-500px;
+        bottom:60px;
+    }
+    .hair-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.sort3{
+    
+    position: relative;
+    bottom:450px; 
+    left:650px;
+    color:rgb(73, 64, 27);
+    cursor:grab;
+}
+
+.hair-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  width: 160px;
+  bottom: 200px;
+  left:650px;
+  cursor: grab;
+  box-shadow: 0px 8px 16px 0px rgba(250, 241, 241, 0);
+  padding: 12px 16px;
+  z-index: 1;
+  border-radius: 20px;
+}
+.hair-dropdown:hover .hair-dropdown-content {
+  display: block;}
+  .img16{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:40px;
+        left:-311px;
+        border-radius: 15px;
+    }
+    .alovera{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left:-210px;
+        bottom:50px;
+        }
+        .img17{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:470px;
+        left:165px;
+        border-radius: 15px;
+    }
+    .rosemary{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left:170px;
+        bottom:480px;
+        }
+        .img18{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:890px;
+        left:525px;
+        border-radius: 15px;
+    }
+    .lavender{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left: 530px;
+        bottom: 906px;}
+        .img19{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:880px;
+        left:-210px;
+        border-radius: 15px;
+    }
+    .ricewater{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left:-220px;
+        bottom: 895px;
+        }
+        .img20{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:1304px;
+        left:168px;
+        border-radius: 15px;
+    }
+    .rosewater{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left:170px;
+        bottom:1313px;
+        }
+        .img21{
+        position: relative;
+        height:350px;
+        width:250px;
+        bottom:1730px;
+        left:525px;
+        border-radius: 15px;
+    }
+    .flax{
+        color:rgb(73, 64, 27);
+        font-size:17px ;
+        position: relative;
+        left:530px;
+        bottom:1738px;
+    }
+    .slider3 {
+    -webkit-appearance: none;
+  width: 190px;
+  height: 10px;
+  position: relative;
+  bottom:75px;
+  left:-540px;
+  border-radius: 5px;
+  background: rgb(148, 132, 68);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider3:hover {
+  opacity: 1;
+}
+
+.slider3::-webkit-slider3-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 24px;
+  border: 0;
+  cursor:grab;
+}
+
+.slider3::-moz-range-thumb {
+  width: 23px;
+  height: 24px;
+  border: 0;
+  cursor: grab;
+}
+.price2{
+    position: relative;
+    bottom:150px;
+    font-size: 21px;
+    color:rgb(87, 76, 33);;
+    left:-540px;
+}
+.filter2{
+    position: relative;
+    bottom:350px;
+    font-size: 27px;
+    color:rgb(87, 76, 33);;
+    left:-540px;
+}
+.hr2{
+    position: relative;
+    bottom:370px;
+    font-size: 17px;
+    width:18%;
+    color:rgb(185, 172, 122);
+    left:-540px;
+}
+.space2{
+    word-spacing:3.8cm;
+    position: relative;
+    bottom:220px;
+    font-size: 21px;
+    width:18%;
+    color:rgb(116, 103, 51);
+    left:20px;
+}
+.sersize{
+    font-size:28px; 
+    color:rgb(87, 76, 33);
+}
+.radio3{
+    position: relative;
+    bottom:180px;
+    font-size: 24px;
+    width:18%;
+    color:rgb(116, 103, 51);
+    left:0x;
+    display:flex;
+    flex-direction:column;
+}
+
+
+
+</style>
+</head>
+<body class="body">
+<header>
+<h1 class="h1"><u>All Products</u></h1>
+</header>
+
+
+
+<main class="main">
+    <div class="a">
+        <p class="b">This is your category description. It’s a great place to tell customers what this category is about, connect with your audience and draw attention to your products.</p>
+    </div>
+    <div class="one">
+        <img src="back-kitchen.jpg" class="img1" onclick="myscroll1()">
+            KITCHEN
+        
+    </div>
+    <div class="two">
+        <img src="back-serum.jpg" class="img2" onclick="myscroll2()">
+        SERUM
+    </div>
+    <div class="three">
+        <img src="back-bath.jpg" class="img3" onclick="myscroll3()">
+        BATH
+    </div>
+    <div class="filter-bar">
+        <h4><div class="filter-item dropdown">
+            KITCHEN
+            <div class="dropdown-content">
+                <a href="#" class="dropdown-item">Utensils</a>
+                <a href="#" class="dropdown-item">Appliances</a>
+                <a href="#" class="dropdown-item">Cookware</a>
+            </div>
+        </div></h4>
+        <h4><div class="filter-item dropdown">
+            BATH
+            <div class="dropdown-content">
+                <a href="#" class="dropdown-item">Towels</a>
+                <a href="#" class="dropdown-item">Accessories</a>
+                <a href="#" class="dropdown-item">Shower Curtains</a>
+            </div>
+        </div></h4>
+        <h4><div class="filter-item dropdown">
+            SERUM
+            <div class="dropdown-content">
+                <a href="#" class="dropdown-item">Hair Serum</a>
+                <a href="#" class="dropdown-item">Skin Serum</a>
+            </div>
+        </div></h4>
+    </div>
+    <div class="kitchen" id="K1">
+        <P class="fontK"><u>KITCHEN</u></P>
+        <div class="kit-dropdown">
+            <span class="sort1">Sort by:Recommended</span>
+            <div class="kit-dropdown-content">
+                <p>Newest</p>
+                <p>Price(low to high)</p>
+                <p>Price(high to low)</p>
+                <p>Name A-Z</p>
+                <p>Name Z-A</p>
+            </div>
+        </div>
+        <img src="kitchen/fork.webp" class="img4">
+        <p class="spoon">Bamboo Cutlery Set <br>$10.00</p>
+        <img src="kitchen/tif.webp" class="img5">
+        <p class="bottle">Stainless Steel Lunch Box<br>$13.00</p>
+        <img src="kitchen/bowl (1).webp" class="img6">
+        <p class="bowl">Eco Glass Storage Container<br>$20.6</p>
+        <img src="kitchen/spong (1).webp" class="img7">
+        <p class="spong">Compostable Kitchen Sponges<br>$8.00</p>
+        <img src="kitchen/tif.webp" class="img8">
+        <p class="tif">Stainless Steel Lunch Box<br>$15.00</p>
+        <img src="kitchen/meshbag.webp" class="img9">
+        <p class="bag">Organic Cotton Mesh Bags<br>$5.00</p>
+    </div>
+    
+    <div class="slidecontainer1">
+        <input type="range" min="$0.00" max="$100.00" Price="$7" class="slider1" id="myRange1">
+        <p class="price">Price:<span id="demo1"></span></p>
+    </div>
+    
+    
+    <p class="filter">Filter By</p>
+    <hr class="hr">
+    <p class="space">$0 $100</p>
+    <form class="radio1">
+        <p class="size">Size</p>
+        <input type="radio" id="size1" name="size" value="small">
+        <label for="size1">Small</label><br>
+        <input type="radio" id="size2" name="size" value="Medium">
+        <label for="size2">Medium</label><br>  
+        <input type="radio" id="size3" name="size" value="Large">
+        <label for="size3">Large</label><br><br>
+    </form>
+    <div class="bath" id="A1">
+        <P class="fontA"><u>BATH</u></P>
+        <div class="bat-dropdown">
+            <span class="sort2">Sort by:Recommended</span>
+            <div class="bat-dropdown-content">
+                <p>Newest</p>
+                <p>Price(low to high)</p>
+                <p>Price(high to low)</p>
+                <p>Name A-Z</p>
+                <p>Name Z-A</p>
+            </div>
+        </div>
+        <img src="bathroom/woodbrush.webp" class="img10">
+        <p class="hairbrush">Bamboo Hairbrush <br>$10.00</p>
+        <img src="bathroom/honeysoap.webp" class="img11">
+        <p class="honeysoap">Honey Natural Soap<br>$6.30</p>
+        <img src="bathroom/footbrush.webp" class="img12">
+        <p class="footbrush">Wooden Foot File<br>$5.40</p>
+        <img src="bathroom/honeysoap.webp" class="img13">
+        <p class="lemonsoap">Lemongrass Natural Soap<br>$8.00</p>
+        <img src="bathroom/tootbrush.webp" class="img14">
+        <p class="tooth">Bamboo Toothbrush<br>$5.50</p>
+        <img src="bathroom/facepad.webp" class="img15">
+        <p class="facepad">Organic Facial Pads<br>$5.58</p>
+    </div>
+    <div class="slidecontainer2">
+        <input type="range" min="$0.00" max="$100.00" Price="$50" class="slider2" id="myRange2">
+        <p class="price1">Price:<span id="demo2"></span></p>
+    </div>
+    <p class="filter1">Filter By</p>
+    <hr class="hr1">
+    <p class="space1">$0 $100</p>
+    <form class="radio2">
+        <p class="batsize">Size</p>
+        <input type="radio" id="size1" name="size" value="small">
+        <label for="size1">Small</label><br>
+        <input type="radio" id="size2" name="size" value="Medium">
+        <label for="size2">Medium</label><br>  
+        <input type="radio" id="size3" name="size" value="Large">
+        <label for="size3">Large</label><br><br>
+    </form>
+
+    <div class="serum" id="S1">
+        <P class="fontS"><u>SERUM</u></P>
+        <div class="hair-dropdown">
+            <span class="sort3">Sort by:Recommended</span>
+            <div class="hair-dropdown-content">
+                <p>Newest</p>
+                <p>Price(low to high)</p>
+                <p>Price(high to low)</p>
+                <p>Name A-Z</p>
+                <p>Name Z-A</p>
+            </div>
+        </div>
+        <img src="serum/alovera.jpg" class="img16">
+        <p class="alovera">Organic Alovera Serum <br>$20.00</p>
+        <img src="serum/rosemary.jpg" class="img17">
+        <p class="rosemary">Rosemary Essential Serum<br>$25.30</p>
+        <img src="serum/lavender.jpg" class="img18">
+        <p class="lavender">Lavender Essential Serum<br>$20.5</p>
+        <img src="serum/ricewater.jpg" class="img19">
+        <p class="ricewater">Ricewater Serum<br>$10.00</p>
+        <img src="serum/rosewater.jpg" class="img20">
+        <p class="rosewater">Rosewater Serum<br>$13.50</p>
+        <img src="serum/flaxseed.jpg" class="img21">
+        <p class="flax">Organic Flaxseed Serum<br>$18.8</p>
+    </div>
+    <div class="slidecontainer3">
+        <input type="range" min="$0.00" max="$100.00" Price="$50" class="slider3" id="myRange3">
+        <p class="price2">Price:<span id="demo3"></span></p>
+    </div>
+    <p class="filter2">Filter By</p>
+    <hr class="hr2">
+    <p class="space2">$0 $100</p>
+    <form class="radio3">
+        <p class="sersize">Size</p>
+        <input type="radio" id="size1" name="size" value="small">
+        <label for="size1">100 ml</label><br>
+        <input type="radio" id="size2" name="size" value="Medium">
+        <label for="size2">200 ml</label><br>  
+        <input type="radio" id="size3" name="size" value="Large">
+        <label for="size3">300 ml</label><br><br>
+    </form>
+
+    <script>
+        function setupSlider(sliderId, outputId) {
+            var slider = document.getElementById(sliderId);
+            var output = document.getElementById(outputId);
+            output.innerHTML = slider.value;
+            
+            slider.oninput = function() {
+                output.innerHTML = this.value;
+            };
+        }
+    
+        document.addEventListener("DOMContentLoaded", function() {
+            setupSlider("myRange1", "demo1");
+            setupSlider("myRange2", "demo2");
+            setupSlider("myRange3", "demo3");
+        });
+    
+        function myscroll1() {
+            window.scrollTo(0, 700);
+        }
+        function myscroll2(){
+            window.scrollTo(0,1850);
+        }
+        function myscroll3(){
+            window.scrollTo(0,2930);
+        }
+    </script>
+</main>
+</body>
+</html>
