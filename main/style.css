@@ -37,27 +37,27 @@
     margin: 12px 7rem;
 }
 
-.menu ul{
+/* .menu ul{
     display:flex;
-}
+} */
 
-.menu ul li{
+/* .menu ul li{
     list-style: none;
     font-size: 3.5rem;
-}
+} */
 
-.menu ul li a{
+/* .menu ul li a{
     color:white;
     text-decoration: none;
     display: block;
     padding: 7px 22px;
     border-radius: 3px;
-}
+} */
 
-.menu ul li a:hover{
+/* .menu ul li a:hover{
     color: black;
     background-color: white;
-}
+} */
 
 .menu h1{
     display: block;
