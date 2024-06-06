@@ -50,56 +50,79 @@
         <section id="home">
             <h1 class="h-primary"><span>Re.ture</span></h1>
             <p> Home Essentials For Sustainable living</p>
-           <a href="wpc (4).html"><button class="btn">Shop Now</button></a>
+            <a href="shopAll.html"><button class="btn">Shop Now</button></a>
         </section>
 
         <section id="services-container">
             <p class="h-primary cente">New In</p>
             <div id="services">
-                <a href=""><i id="backbtn" class="ri-skip-left-line"></i></a>
-
+                <button><i id="backbtn" class="ri-skip-left-line"></i></button>
+ 
 
                 <div class="box">
-                    <div>
-                        <span><img src="jar2.jpg" alt="">
-                            <p class="center">Eco Glass <br>
+                    <span><img src="mainimg/jar2.jpg" alt="">
+                        <p class="center">Eco Glass <br>
+                        <p class="center">$5.50</p>
+                        </p>
+                    </span>
+                    <span><img src="mainimg/soap1.jpg" alt="">
+                        <p class="center">Seaweed Natural Soap <br>
+                        <p class="center">$6.50</p>
+                        </p>
+                    </span>
+                    <span><img src="mainimg/toothbrush.jpg" alt="">
+                        <p class="center">wooden Toothbrush
+                        <p class="center">$25.00</p>
+                        </p>
+                    </span>
+                    <span><img src="mainimg/serum.jpg" alt="">
+                        <h2 class="h-secondary center"></h2>
+                        <p class="center">Face Serum
+                        <p class="center">$7.00</p>
+                        </p>
+                    </span>
+                    <span><img src="mainimg/cleanbrush.jpg" alt="">
+                        <p class="center">Cleaning <br> brush
                             <p class="center">$5.50</p>
-                            </p>
-                        </span>
-                        <span><img src="soap1.jpg" alt="">
-                            <p class="center">Seaweed Natural Soap <br>
-                            <p class="center">$6.50</p>
-                            </p>
-                        </span>
-                        <span><img src="toothbrush.jpg" alt="">
-                            <p class="center">wooden Toothbrush
-                            <p class="center">$25.00</p>
-                            </p>
-                        </span>
-                        <span><img src="serum.jpg" alt="">
-                            <h2 class="h-secondary center"></h2>
-                            <p class="center">Face Serum 
-                            <p class="center">$7.00</p>
-                            </p>
-                        </span>
-                    </div>
-                    <div>
-                        <span><img src="cleanbrush.jpg" alt="">
-                            <p class="center">Cleaning  <br> brush
-                            <p class="center">$5.50</p>
-                            </p>
-                        </span><span><img src="bott1.jpg" alt="">
-                            <p class="center">Stainless Steel<br> Bottle
-                            <p class="center">$5.50</p>
-                            </p>
-                        </span><span><img src="kitchen2.jpg" alt="">
-                            <p class="center">Organic Cotton <br> Mesh Bag
-                            <p class="center">$5.50</p>
-                            </p>
-                        </span>
-                    </div>
+                        </p>
+                    </span>
+                    <span><img src="mainimg/fotstone.jpeg" alt="">
+                        <p class="center">Foot Stone
+                        <p class="center">$5.50</p>
+                        </p>
+                    </span>
+                    <span><img src="mainimg/bott1.jpg" alt="">
+                        <p class="center">Stainless Steel<br> Bottle
+                        <p class="center">$5.50</p>
+                        </p>
+                    </span>
+                    <span><img src="mainimg/kitchen2.jpg" alt="">
+                        <p class="center">Organic Cotton <br> Mesh Bag
+                        <p class="center">$5.50</p>
+                        </p>
+                    </span>
+                    <span><img src="mainimg/candel.jpeg" alt="">
+                        <p class="center">Organic Candel
+                        <p class="center">$5.50</p>
+                        </p>
+                    </span>
+                    <span><img src="mainimg/soap.jpg" alt="">
+                        <p class="center">Organic Cotton <br> Mesh Bag
+                        <p class="center">$5.50</p>
+                        </p>
+                    </span>
+                    <span><img src="mainimg/jar.jpg" alt="">
+                        <p class="center">Organic Cotton <br> Mesh Bag
+                        <p class="center">$5.50</p>
+                        </p>
+                    </span>
+                    <span><img src="mainimg/dishcleaner.jpg" alt="">
+                        <p class="center">Organic Cotton <br> Mesh Bag
+                        <p class="center">$5.50</p>
+                        </p>
+                    </span>
                 </div>
-                <a href=""><i id="forwardbtn" class="ri-skip-right-line"></i></a>
+                <button><i id="forwardbtn" class="ri-skip-right-line"></i></button>
 
             </div>
         </section>
@@ -112,9 +135,26 @@
             <p id="bath">Where quality meets eco-friendly</p>
         </div>
         <div class="image">
-            <img src="about-back.jpg" alt="img not avai">
+            <img src="mainimg/about-back.jpg" alt="img not avai">
         </div>
     </section>
+
+    <script>
+        let scroll = document.querySelector(".box");
+        let bckscroll = document.querySelector("#backbtn");
+        let forscroll = document.querySelector("#forwardbtn");
+
+        bckscroll.onclick=()=>{
+            console.log("btn is clicked");
+            scroll.scrollLeft -= 350;
+        }
+
+        forscroll.onclick=()=>{
+            console.log("btn is clicked");
+            scroll.scrollLeft += 350;
+        }
+
+    </script>
 </body>
 
 </html>
