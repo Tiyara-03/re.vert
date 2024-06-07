@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Re.ture</title>
 
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <!-- Custom js link -->
     <link rel="stylesheet" href="index.js">
     <!-- custom css link -->
@@ -47,16 +50,19 @@
             </div>
         </nav>
         <section id="home">
-            <h1 class="h-primary"><span>Re.ture</span></h1>
-            <p> Home Essentials For Sustainable living</p>
-            <a href="shopAll.html"><button class="btn">Shop Now</button></a>
+            <div class="home">
+                <h1 class="h-primary"><span>Re.vert</span></h1>
+                <p> Home Essentials For Sustainable living</p>
+            </div>
+                <a href="shopAll.html"><button class="btn">Shop Now</button></a>
+            
         </section>
 
         <section id="services-container">
             <p class="h-primary cente">New In</p>
             <div id="services">
                 <button><i id="backbtn" class="ri-skip-left-line"></i></button>
- 
+
 
                 <div class="box">
                     <span><img src="mainimg/jar2.jpg" alt="">
@@ -82,7 +88,7 @@
                     </span>
                     <span><img src="mainimg/cleanbrush.jpg" alt="">
                         <p class="center">Cleaning <br> brush
-                            <p class="center">$5.50</p>
+                        <p class="center">$5.50</p>
                         </p>
                     </span>
                     <span><img src="mainimg/fotstone.jpeg" alt="">
@@ -125,35 +131,72 @@
 
             </div>
         </section>
+        <section id="about">
+            <div class="about">
+                <h1 class="bath">
+                    Zero Waste <br class="bath">Bath Products
+                </h1>
+                <p id="bath">Where quality meets eco-friendly</p>
+            </div>
+            <div class="image">
+                <img src="mainimg/about-back.jpg" alt="img not avai">
+            </div>
+        </section>
+
+        <section class="collections">
+            <h1>Shop Collections</h1>
+            <div class="collect">
+                <div class="colshop"><img src="mainimg/kitshop.jpg" alt=""><p class="col-bout">Kitchen</p></div>
+                <div class="colshop"><img src="mainimg/bathcol.jpeg" alt=""><p class="col-bout">Bathroom</p></div>
+                <div class="colshop"><img src="mainimg/onthego.jpg" alt=""><p class="col-bout">On the Go</p></div>
+            </div>
+
+        </section>
+    
+        <section class="footer">
+            <div class="head">
+                
+                <h1>The Re.ture Mission</h1>
+                <p>We believe in ethical and smart shopping. All of our products are carefully selected to ensure they align with our core values</p>
+
+                <h2>Follow Us <br>@Re.ture</h2>
+            </div>
+        </section>
     </div>
-    <section id="about">
-        <div class="about">
-            <h1 class="bath">
-                Zero Waste <br class="bath">Bath Products
-            </h1>
-            <p id="bath">Where quality meets eco-friendly</p>
-        </div>
-        <div class="image">
-            <img src="mainimg/about-back.jpg" alt="img not avai">
-        </div>
-    </section>
 
     <script>
+
+        console.log("console is working");
+
+        const sr = ScrollReveal({
+            distance: '80px',
+            duration: 2600,
+            delay: 450,
+            reset: true
+
+        })
+
+        sr.reveal('.about', { delay: 100, origin: 'left' });
+        sr.reveal('.image', { delay: 100, origin: 'right' });
+        sr.reveal('.home', {delay:100, origin: 'bottom'});
+
+
         let scroll = document.querySelector(".box");
         let bckscroll = document.querySelector("#backbtn");
         let forscroll = document.querySelector("#forwardbtn");
 
-        bckscroll.onclick=()=>{
+        bckscroll.onclick = () => {
             console.log("btn is clicked");
             scroll.scrollLeft -= 350;
         }
 
-        forscroll.onclick=()=>{
+        forscroll.onclick = () => {
             console.log("btn is clicked");
             scroll.scrollLeft += 350;
         }
 
     </script>
+
 </body>
 
 </html>
