@@ -196,6 +196,7 @@
     width: 1000px;
     display: flex;
     overflow-x: scroll;
+    padding: 25px 0;
 
 }
 
@@ -229,6 +230,11 @@
     height: 335px;
     /* display: block; */
     margin: 0 40px;
+}
+
+.box img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 #services button {
@@ -342,6 +348,7 @@
     width: 23rem;
     height: 26rem;
     /* opacity: 0.6; */
+    
 
 }
 
@@ -352,6 +359,7 @@
     width: 23rem;
     height: 26rem;
     z-index: -1;
+    
 }
 
 p.col-bout {
@@ -389,4 +397,8 @@ p.col-bout {
     font-size: 25px;
     padding: 20px 20rem;
 
+}
+
+.head h2{
+    cursor: pointer;
 }
